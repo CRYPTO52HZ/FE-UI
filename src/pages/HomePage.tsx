@@ -36,6 +36,8 @@ const HomePage = () => {
         BTC/USDT Price:{" "}
         {price ? `$${parseFloat(price).toFixed(2)}` : "Loading..."}
       </h1>
+
+      <h1 className="text-3xl">Hello world!</h1>
     </div>
   );
 };
