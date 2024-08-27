@@ -7,7 +7,6 @@ import { getIcon } from "../apis/currency";
 const streamUrl = `${WS_BINANCE_BASE_URL}/stream?streams=btcusdt@markPrice@1s`;
 const icon = async () => {
   const i = await getIcon();
-  console.log(i);
 };
 const HomePage = () => {
   const [price, setPrice] = useState(null);

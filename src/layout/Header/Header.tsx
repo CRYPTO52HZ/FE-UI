@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="h-fit pb-5">
+    <div className="h-fit w-full pb-50 fixed px-10 bg-binance-dark">
       <div className="w-fit inline-flex">
         <div className="h-fit pr-5">
           <Link to={"/home"}>
